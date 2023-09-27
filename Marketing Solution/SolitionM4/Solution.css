@@ -1,0 +1,366 @@
+.Nav{
+    position: relative;
+    margin-top: 0px;
+    height: 100px;
+    width: 101.25%;
+    background-color: black;
+    top: -30px;
+    left: -10px;
+}
+.Nav .logo{
+    color: whitesmoke;
+    font-family: 'Jost', sans-serif;
+    font-size: 1rem;
+    left: 30px;
+    position: relative;
+    top: 35px;
+}
+.Nav .List list{
+    position: relative;
+    left: 500px;
+    font-size: 18px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 600;
+    padding: 25px;
+    top:-15px;
+}
+
+.Nav .List list a {
+   color: whitesmoke;
+}
+
+.Nav .List list a:hover{
+   color: rgb(8, 148, 148);
+}
+
+
+.social .Twitter{
+    position: relative;
+    width: 30px;
+    height: 30px;
+    top: -55px;
+    left: 1050px;
+    background-image: url("./TwitteW.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    transition: background-image 0.5s;
+ }
+ .social .Skype{
+    position: relative;  
+    width: 30px;
+    height: 30px;
+    top: -85px;
+    left: 1100px;
+    background-image: url("./skypeeW.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    transition: background-image 0.5s;
+ }
+ .social .Vee{
+    position: relative;
+    width: 30px;
+    height: 30px;
+    top: -115px;
+    left: 1150px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url("./Vimeow.png");
+    transition: background-image 0.5s;
+ }
+ .Nav button{
+    position: relative;
+    background-color: rgb(8, 8, 8);
+    width: 180px;
+    height: 60px;
+    top: -160px;
+    left: 1215px;
+    color: whitesmoke;
+    font-family: 'Jost', sans-serif;
+    font-size: 16PX;
+    border-color: rgb(67, 67, 213);
+    border-style:groove;
+ }
+ .Nav .rocket{
+   position: relative;
+   height: 30px;
+   width: 25px;
+   background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url("./ButtonRocket.jpeg");
+    top: -207px;
+    left: 1227px;
+ }
+ .Vee:hover{
+   background-image: url("./vimeo.png");
+ }
+ .Skype:hover{
+ background-image: url("./Skaypee.png");
+ }
+ .Twitter:hover{
+   background-image: url("./twitter.png");
+ }
+ .main {
+   height: 1000px;
+   width: 800px;
+   background-image: url("./Poster\ image.jpeg");
+   background-position: center;
+   background-attachment: scroll;
+   position: relative;
+ }
+ .Msa{
+   position: relative;
+   top:-30px;
+   left: -10px;
+   height: 800px;
+   width: 101.25%;
+   background-image: url("./Poster\ image.jpeg");
+   background-position: center;
+   background-size: cover;
+   background-attachment: local;
+ }
+ .shadow{
+   position: relative;
+   background-color: rgba(0, 0, 0, 0.678);
+   height: 805px;
+   width: 1427px;
+   top:-900px;
+   left: -10px; 
+}
+#Sh1{
+   position: relative;
+   top: 100px;
+   font-size:98px;
+   color: rgb(9, 153, 237);
+   text-align: center;
+   font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#Sh2{
+   top: 50px;
+   position: relative;
+   font-size:98px;
+   color: rgb(9, 153, 237);
+   text-align: center;
+   font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.shadow pre{
+   position: relative;
+   font-size: 28.5px;
+   color: whitesmoke;
+   font-family: Arial, Helvetica, sans-serif;
+   left: 200px;
+   line-height: 50px;
+}
+.shadow button{
+   position: relative;
+   background-color: rgb(52, 92, 210);
+   width: 180px;
+   height: 60px;
+   left: 610px;
+   color: whitesmoke;
+   font-family: 'Jost', sans-serif;
+   font-size: 16PX;
+   border: none;
+   transition: background-image 0.5s;
+}
+.Nav button:hover{
+   background:  linear-gradient(to left, #55b4d4, #5758e0);
+   border: none;
+}
+.shadow button:hover{
+   background:  linear-gradient(to left, #55b4d4, #5758e0);
+}
+.Second{
+position: relative;
+top: -900px;
+left: -10px;
+background-color: black;
+height: 1000px;
+width: 1427px;
+z-index: 999;
+}
+
+.one{
+   position: relative;
+   left:120px;
+   top: 150px;
+   height: 300px;
+   width: 350px;
+   z-index: 1;
+   background-color: #191919;
+   transition-duration: 0.5s;
+   
+}
+.one .tlogo{
+   top: -230px;
+   left:150px;
+   height: 50px;
+   width: 50px;
+   position: relative;
+   background-color: whitesmoke;
+}
+.one pre{
+   position:relative;
+   color:rgba(245, 245, 245, 0.532);
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   position: relative;
+   top: -230px;
+   font-size: 22px;
+   left: 20px;
+   font-weight: 400;
+}
+.edge1{
+   position: relative;
+   top: -20px;
+   left: -20px;
+   height: 250px;
+   width: 300px;
+   background:  linear-gradient(to left, #55b4d4, #5758e0);
+   transition-duration: 0.1s;
+}
+.edge1:hover {
+   position: relative;
+   top: -20px;
+   left: -20px;
+   height: 250px;
+   width: 300px;
+   background-color:transparent
+}
+.one:hover{
+   position: relative;
+   left:120px;
+   top: 120px;
+   height: 300px;
+   width: 350px;
+   animation-iteration-count: infinite;
+   background:  linear-gradient(to left, #55b4d4, #5758e0);
+   transition-duration: 0.1s;
+   
+.edge1 {
+   position: relative;
+   top: -20px;
+   left: -20px;
+   height: 250px;
+   width: 300px;
+   background-color:transparent
+   }
+}
+.Two{
+   position: relative;
+   left:510px;
+   top: -150px;
+   height: 300px;
+   width: 350px;
+   transition-duration: 0.1s;
+   background-color: #191919;
+}
+.Two:hover{
+   position: relative;
+   left:510px;
+   top: -180px;
+   height: 300px;
+   width: 350px;
+   background:  linear-gradient(to left, #55b4d4, #5758e0);
+}
+.Three{
+   position: relative;
+   left:900px;
+   top: -450px;
+   height: 300px;
+   width: 350px;
+   background-color: #191919;
+}
+.Three:hover{
+   position: relative;
+   left:900px;
+   top: -480px;
+   height: 300px;
+   width: 350px;  
+   background:  linear-gradient(to left, #55b4d4, #5758e0);
+}
+.Four{
+   position: relative;
+   left:120px;
+   top: -410px;
+   height: 300px;
+   width: 350px;
+   transition-duration: 0.1s;
+   background-color: #191919;
+}
+
+.Four:hover{
+   position: relative;
+   left:120px;
+   top: -440px;
+   height: 300px;
+   width: 350px;
+   background:  linear-gradient(to left, #55b4d4, #5758e0);
+}
+.Five{
+   position: relative;
+   left:510px;
+   top: -710px;
+   height: 300px;
+   width: 350px;
+   background-color: #191919;
+}
+.Five:hover{ 
+   position: relative;
+   left:510px;
+   top: -740px;
+   height: 300px;
+   width: 350px;
+   transition-duration: 0.1s;
+   background:  linear-gradient(to left, #55b4d4, #5758e0);
+}
+
+.Six{
+   position: relative;
+   left:900px;
+   top: -1010px;
+   height: 300px;
+   width: 350px;
+   background-color: #191919;
+}
+.edge2{
+   position: relative;
+   top: 70px;
+   left:75px;
+   height: 250px;
+   width: 300px;
+   background:  linear-gradient(to left, #55b4d4, #5758e0);
+   transition-duration: 0.1s;
+}
+
+.Six:hover{
+   position: relative;
+   left:900px;
+   top: -1040px;
+   height: 300px;
+   width: 350px;
+   background:  linear-gradient(to left, #55b4d4, #5758e0);
+
+.edge2{
+   position: relative;
+   top: 70px;
+   left:75px;
+   height: 250px;
+   width: 300px;
+   background-color: transparent;
+   }
+}
+.edge2:hover{
+   position: relative;
+   top: 70px;
+   left:75px;
+   height: 250px;
+   width: 300px;
+   background-color: transparent;
+}
+
+
+
